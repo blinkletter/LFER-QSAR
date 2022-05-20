@@ -1,0 +1,72 @@
+﻿# pKa Values Compiled by by R. Williams
+# Available at https://organicchemistrydata.org/hansreich/resources/pka/
+#
+# "Substituent" is the position and structure of the substituent
+# "BzOH pKa" is acidity of substituted BENZOIC ACIDS in water
+# "PhOH pKa" is acidity of substituted PHENOLS in water
+# "Aniline pKa" is acidity of substituted ANILINESS in water
+# "Dimethylaniline pKa" is acidity of substituted N,N-DIMETHYLANILINES in water
+# "Pyridine pKa" is acidity of substituted PYRIDINESS in water
+#
+# Errors are possible. Refer to original document for confirmation
+#
+# NOTE: csv files are not compatible with comments.
+# Use pandas.read_csv("file.csv", comment = "#") to import file
+#
+Substituent,BzOH_pKa,PhOH_pKa,Aniline pKa,Dimethylaniline_pKa,Pyridine_pKa
+m-Br,3.81,9.11,3.51,3.08,2.84
+p-Br,4,9.34,3.91,3.52,
+m-C6H5,,9.59,4.18,,
+p-C6H5,,9.51,4.27,,
+m-CCCH3,,,,,
+m-CCH,,,,,
+p-CCH,,,,,
+p-CCCH3,,,,,
+m-CF3,3.79,,3.49,,
+p-CF3,,,2.57,,
+m-CH3,4.24,10.08,4.67,4.66,5.68
+p-CH3,4.34,10.19,5.07,4.94,6.02
+m-CHCH2,,,,,
+p-CHCH2,,,,,
+m-CHO,,,,,
+p-CHO,,,,,
+m-Cl,3.83,9.02,3.32,3.09,2.84
+p-Cl,3.99,9.38,3.81,3.33,
+m-CMe3,4.28,,,,5.82
+p-CMe3,4.4,,,4.65,5.99
+m-CN,3.6,8.61,,2.76,1.45
+p-CN,3.55,7.95,,,
+m-CO2CH3,,,3.56,,
+p-CO2CH3,,8.47,2.3,,
+m-CO2Et,,,,,
+p-CO2Et,,8.5,2.38,,3.45
+m-COCH3,,9.19,,3.56,3.18
+p-COCH3,,8.05,,,
+m-Et,,9.9,,,5.7
+p-Et,4.35,10,,4.69,6.02
+m-F,3.87,9.28,3.38,4.01,3.1
+p-F,4.14,9.95,4.52,,
+H,4.21,9.94,4.6,4.2,5.14
+m-I,3.86,9.17,,,3.25
+p-I,,,,3.43,
+"m,m-diCF3",,,,,
+m-N3,,,,,
+p-N3,,,,,
+m-NH2,4.79,9.87,4.88,,5.8
+p-NH2,4.92,10.3,6.08,,9.17
+m-NH3+,,,2.65,,
+p-NH3+,,,3.29,,
+m-NO,,,,,
+p-NO,,,,,
+m-NO2,3.45,8.35,2.45,,0.81
+p-NO2,3.44,7.14,1,,
+m-OC6H5,3.95,,,,
+p-OC6H5,4.52,,,,
+m-OCH3,4.09,9.65,4.2,,4.88
+p-OCH3,4.47,10.2,5.29,5.14,6.62
+m-OEt,4.17,,4.17,,
+p-OEt,4.45,,5.25,,6.67
+m-OH,4.08,9.44,4.17,,4.86
+p-OH,4.58,9.96,5.5,,3.27
+m-SO2CH3,3.64,9.33,2.68,,
+p-SO2CH3,3.52,7.83,1.48,,
