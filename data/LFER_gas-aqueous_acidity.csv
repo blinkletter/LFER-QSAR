@@ -5,30 +5,31 @@
 # Chem. Rev., 1991, 91, 165-195.
 # https://doi.org/10.1021/cr00002a004
 #
-# NOTE: csv files are not compatible with comments.
-# Use pandas.read_csv("file.csv", comment = "#") to import file
+# NOTE: csv files are not compatible with comments or spaces.
+# Use pandas.read_csv("file.csv", comment = "#", skipinitialspace=True) 
+# to import file
 #
-Substituent,BzOH,PhOH
-p-NO2,11.62,20.96
-pNO,9.65,20.3
-p-CN,10.8,16.58
-p-SO2CH3,10.14,16.9
-p-CHO,7.1,15.79
-p-COCH3,5.62,13.32
-p-CO2Et,5.98,12.47
-p-CF3,7.64,11.92
-p-F,2.94,2.28
-p-OCH3,-0.63,-1.23
-p-CH3,-1.05,-1.14
-p-NH2,-2.2,-3.37
-p-Cl,4.39,5.9
-m-NO2,11.12,14.51
-m-CN,10.19,12.99
-m-CF3,7.26,9.58
-m-Cl,4.71,7.11
-m-F,3.8,5.32
-m-OCH3,0.51,1.06
-H,0,0
-m-CH3,-0.68,-0.41
-m-NH2,-1.49,-1.42
-"m,m-diCF3",14.77,18.91
+Substituent,     BzOH,       PhOH
+p-NO2,           11.62,      20.96
+p-NO,            9.65,       20.3
+p-CN,            10.8,       16.58
+p-SO2CH3,        10.14,      16.9
+p-CHO,           7.1,        15.79
+p-COCH3,         5.62,       13.32
+p-CO2Et,         5.98,       12.47
+p-CF3,           7.64,       11.92
+p-F,             2.94,       2.28
+p-OCH3,         -0.63,      -1.23
+p-CH3,          -1.05,      -1.14
+p-NH2,          -2.2,       -3.37
+p-Cl,            4.39,       5.9
+m-NO2,           11.12,      14.51
+m-CN,            10.19,      12.99
+m-CF3,           7.26,       9.58
+m-Cl,            4.71,       7.11
+m-F,             3.8,        5.32
+m-OCH3,          0.51,       1.06
+H,               0,          0
+m-CH3,          -0.68,      -0.41
+m-NH2,          -1.49,      -1.42
+"m,m-diCF3",     14.77,      18.91
