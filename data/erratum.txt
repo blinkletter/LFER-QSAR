@@ -1,7 +1,10 @@
 errata.txt
+May 24, 2022
 
 This file will track corrections made to the data tables.
 
+-------------------------------------------------------------
+May 25, 2022
 Possible error in p-Et s_minus
 
 There is a discrepancy between the Williams table and the HanschLeotaft table
@@ -11,34 +14,43 @@ Substituent, sigma,    s_plus,   s_minus, TABLE V, TABLE I
 m-Et,       -0.07,     ,         ,        ,        219
 p-Et,       -0.15,    -0.3,     -0.19,    93,      219
 
-LFER_williams.csv
+OLD LFER_williams.csv
 Substituent,    sigma,     s_plus,    s_minus,   Page
 m-Et,          -0.07,      ,          ,          263
-p-Et,          -0.15,      ,          0.69,      263
+p-Et,          -0.15,      ,          0.69,      263   ****
+
+The williams table seems to be wrong. The entry will be change and the 
+HanschLeoTaft data inserted in its place. The primary references should be 
+checked.
+
+NEW LFER_williams.csv
+Substituent,    sigma,     s_plus,    s_minus,   Page
+m-Et,          -0.07,      ,          ,          263
+p-Et,          -0.15,     -0.03,     -0.19,      "Table V, Entry 93, Hansch"   ****
 
 
-Missing s_minus data for p-CO2CH3
+-------------------------------------------------------------
+May 25, 2022
+ERROR: -CO2CH3 data was mixed up with -OCOCH3 data
 
-LFER_HanschLeoTaft.csv
-Substituent, sigma,    s_plus,   s_minus, TABLE V, TABLE I
-m-CO2CH3,    0.37,     ,         ,        ,        203
-p-CO2CH3,    0.45,     0.49,     0.75,    90,      203
-m-CO2Et,     0.37,     ,         ,        ,        277
-p-CO2Et,     0.45,     0.48,     0.75,    124,     277
-
-
-LFER_williams.csv
+OLD LFER_williams.csv
 Substituent,    sigma,     s_plus,    s_minus,   Page
 m-CO2CH3,       0.39,      ,          ,          264
-p-CO2CH3,       0.31,     -0.19,      ,          264
+p-CO2CH3,       0.31,     -0.19,      ,          264  ****
 m-CO2Et,        0.37,      ,          ,          266
 p-CO2Et,        0.45,      ,          0.64,      266
+m-COCH3,        0.38,      ,          ,          264
+p-COCH3,        0.5,       ,          0.84,      264
 
-Change to and check
+Corrected s_plus and s_minus values for p-CO2CH3 
 
-LFER_williams.csv
+NEW LFER_williams.csv
 Substituent,    sigma,     s_plus,    s_minus,   Page
 m-CO2CH3,       0.32,      ,          ,          264
-p-CO2CH3,       0.39,      ,          0.75,      264
+p-CO2CH3,       0.39,      ,          0.75,      264 ****
 m-CO2Et,        0.37,      ,          ,          266
 p-CO2Et,        0.45,      ,          0.64,      266
+m-COCH3,        0.38,      ,          ,          264
+p-COCH3,        0.5,       ,          0.84,      264
+
+-------------------------------------------------------------
