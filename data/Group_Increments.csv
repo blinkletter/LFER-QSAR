@@ -1,0 +1,96 @@
+# Group Ients in kcal/mile
+#
+# from ta2.4 of "Modern Physical Organic Chemistry"
+#
+# note: Couble bonded C, Cb = benzene C, Ni = imine NH2
+#
+# The firtter is the atom followed by the groups to which 
+# it is aed. e.g. C-H3C is a carbon attached to three hydrogen atons 
+# and anocarbon atom. This would be a methyl group.
+#
+group,    dHf
+C-H3C,         -10.2
+C-H2C2,         -4.93
+C-HC3,          -1.90
+C-C4,            0.5
+Cd-H2,           6.26
+Cd-HC,           8.59
+Cd-C2,          10.34
+Cd-CdH,          6.78
+Cd-CdC,          8.88
+Cd-CbH,          6.78
+Cd-CbC,          8.64
+Cd-Cd2,          4.6
+Cb-H,            3.30
+Cb-C,            5.51
+Cb-Cd,           5.68
+Cb-Cb,           4.96
+C-CdCH2,        -4.76
+C-Cd2H2,        -4.29
+C-CdCbH2,       -4.29
+C-CbCH2,        -4.86
+C-CdC2H,        -1.48
+C-CbC2H,        -0.98
+C-CdC3,          1.68
+C-CbC3,          2.81
+C-OC3,          -6.6
+C-OC2H,         -7.2
+C-OCH2,         -8.1
+C-OH3,         -10.08
+C-OCbH2,        -8.1
+C-OCdH2,        -6.5
+Cb-O,           -0.9
+O-C2,          -23.2
+O-CH,          -37.9
+O-Cd2,         -33.0
+O-CdC,         -30.5
+O-Cb2,         -21.1
+O-CbC,         -23.0
+O-CbH,         -37.9
+C-(CO)C3,        1.58
+C-(CO)C2H,      -1.83
+C-(CO)CH2,      -5.0
+C-(CO)H3,      -10.08
+Cb-(CO),         9.7
+CO-C2,         -31.4
+CO-CH,         -29.1
+CO-H2,         -26.0
+CO-Cb2,        -25.8
+CO-CbC,        -30.9
+CO-CbH,        -29.1
+CO-OC,         -35.1
+CO-OH,         -32.1
+CO-OCd,        -32.0
+CO-OCb,        -36.6
+CO-CdH,        -29.1
+CO-(CO)C,      -43.1
+CO-(CO)H,      -58.1
+Cd-(CO)C,        7.5
+Cd-(CO)H,        5.0
+C-O2C2,        -18.8
+C-O2CH,        -16.3
+C-O2H2,        -16.1
+C-NH3,         -10.08
+C-NCH2,         -6.6
+C-NC2H,         -5.2
+C-NC3,          -3.2
+Cb-N,           -0.5
+N-CH2,           4.8
+N-C2H,          15.4
+N-C3,           24.4
+N-CbH2,          4.8
+N-CbCH,         14.9
+N-CbC2,         26.2
+N-Cb2H,         16.3
+Ni-H,           16.3
+Ni-C,           21.3
+Ni-Cb,          16.7
+CO-NH,         -29.6
+CO-NC,         -32.8
+N-(CO)H2,      -14.9
+N-(CO)CH,       -4.4
+N-(CO)C2,        
+N-(CO)CbH,       0.4
+N-(CO)2H,      -18.5
+N-(CO)2C,       -5.9
+N-(CO)2Cb,      -0.5
