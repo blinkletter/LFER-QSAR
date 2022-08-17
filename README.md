@@ -7,4 +7,4 @@ Along the way, my students will vet the tables for **errors** (both transcriptio
 
 We will be learning some basic **python** so that students can use the **Pandas** library to manipulate and visualize the data. Rather than typing in data from websites and publications each time a plot is made, this repository will enable students to focus more on the big picture. The code will be presented in **Jupyter notebooks** that will also be available here. Structure controls reactivity. We will see it in the graphs.
 
-In the beginning, we will focus on **LFER parameters** (Hammett, Brown-Okamoto, Taft, etc.) and will eventually add parameters more useful in **QSAR**. Synthetic chemistry and medicinal chemistry are clients of physical organic chemistry. Hopefully I will be able to prove that to my students using this data.
+In the beginning, we will focus on **LFER parameters** (Hammett, Brown-Okamoto, Taft, etc.) and will eventually add parameters more useful in **QSAR**. Synthetic chemistry and medicinal chemistry are clients of physical organic chemistry. Hopefully I will be able to prove that to my students by using this data.
