@@ -1,0 +1,90 @@
+# Creary Radical Parameters Compiled by Xavier Creary in
+# "Super radical Stabilizers"
+# Xavier Creary
+# Accounts of Chemical Research 2006 39 (10), 761-771
+# https://doi.org/10.1021/ar0680724
+# ar0680724.pdf
+# 
+# "Substituent" is the position and structure of the substituent - aligned with the hammett tables
+# "Creary_Sub" is the designations used in the paper above
+#
+# Errors are possible. Refer to original document for confirmation
+#
+# NOTE: csv files are not compatible with comments or spaces.
+# Use pandas.read_csv("file.csv", comment = "#", skipinitialspace=True) 
+# to import file
+#
+# NOTE These are electron withdrawing Substituents and most have significant sigma-minus Values
+#      These values are for their actions on cations so Creary has reported on the sigma-plus values
+Substituent,            Creary_Sub,          k(s-1),         k_rel,      sigma.dot.C
+p-OSO2CF3,              4-OTf,               4.65E-5,        0.83,       -0.08       
+p-F,                    4-F,                 4.88E-5,        0.88,       -0.06       
+H,                      4-H,                 5.57E-5,        1.00,        0.00       
+p-OCOCH3,               4-OAc,               6.25E-5,        1.12,        0.05       
+p-CF3,                  4-CF3,               6.26E-5,        1.12,        0.05       
+p-Br,                   4-Br,                7.17E-5,        1.29,        0.11       
+p-Cl,                   4-Cl,                7.19E-5,        1.29,        0.11       
+p-SnMe3,                4-SnMe3,             7.56E-5,        1.36,        0.13       
+p-CMe3,                 4-t-Bu,              8.00E-5,        1.44,        0.16       
+p-CH3,                  4-CH3,               8.05E-5,        1.45,        0.16       
+p-I,                    4-I,                 8.18E-5,        1.47,        0.17       
+p-PO(OEt)2,             4-PO(OEt)2,          8.24E-5,        1.52,        0.17       
+p-HgCl,                 4-HgCl,              8.27E-5,        1.48,        0.17       
+p-SO2CH3,               4-SO2CH3,            8.35E-5,        1.50,        0.18       
+p-SOCH3,                4-SOCH3,             8.47E-5,        1.52,        0.18       
+p-SiMe3,                4-SiMe3,             8.78E-5,        1.58,        0.20       
+p-CONMe2,               4-CONMe2,            9.23E-5,        1.66,        0.22       
+p-cC3H5,                4-cyclopropyl,       9.57E-5,        1.72,        0.24       
+p-OH,                   4-OH,                1.01E-4,        1.81,        0.26       
+p-OCH3,                 4-OCH3,              1.03E-4,        1.85,        0.27       
+p-OSiMe2tBu,            4-OTBS,              1.04E-4,        1.86,        0.27       
+p-CH2SiMe3,             4-CH2SiMe3,          1.04E-4,        1.87,        0.27       
+p-B(OCH2CH2O),          4-B[OCH2CH2O],       1.06E-4,        1.90,        0.28       
+p-PS(OEt)2,             4-PS(OEt)2,          1.09E-4,        1.96,        0.29       
+p-N(O)=N-tBu,           4-N(O)=N-Bu-t,       1.11E-4,        2.00,        0.30       
+p-NHAc,                 4-NHAc,              1.22E-4,        2.19,        0.34       
+p-boronic anhydride,    4-boronic anhydride, 1.23E-4,        2.21,        0.34       
+p-CO2Et,                4-CO2Et,             1.32E-4,        2.38,        0.38       
+p-N3,                   4-N3,                1.40E-4,        2.41,        0.38       
+p-CSNMe2,               4-CSNMe2,            1.35E-4,        2.43,        0.39       
+p-CO2CH3,               4-CO2CH3,            1.40E-4,        2.52,        0.40       
+p-COtBu,                4-CO-t-Bu,           1.44E-4,        2.59,        0.41       
+p-SCH3,                 4-SCH3,              1.59E-4,        2.85,        0.45       
+p-CO2H,                 4-CO2H,              1.59E-4,        2.85,        0.45       
+p-C6H5,                 4-Ph,                1.60E-4,        2.87,        0.46       
+p-CN,                   4-CN,                1.66E-4,        2.98,        0.47       
+p-COCH3,                4-COCH3,             1.80E-4,        3.23,        0.51       
+p-COC6H5,               4-COPh,              1.87E-4,        3.35,        0.53       
+p-C(CH3)=CH2,           4-C(CH3)=CH2,        1.90E-4,        3.41,        0.53       
+p-CCH,                  4-CCH,               1.94E-4,        3.49,        0.54       
+p-NO2,                  4-NO2,               2.09E-4,        3.75,        0.57       
+p-CCCH3,                4-CCCH3,             2.07E-4,        3.71,        0.57       
+p-CH=N-tBu,             4-CH=N-Bu-t,         2.14E-4,        3.97,        0.60       
+p-CHO,                  4-CHO,               2.43E-4,        4.35,        0.64       
+p-CH=CH2,               4-CH=CH2,            2.60E-4,        4.67,        0.67       
+p-CH=NOH,               4-CH=N-OH,           2.66E-4,        4.78,        0.68       
+p-N=N-tBu,              4-N=N-Bu-t,          2.70E-4,        4.85,        0.69       
+p-NH2,                  4-NH2,               2.82E-4,        5.06,        0.70       
+p-CH=N-OCH3,            4-CH=N-OCH3,         2.86E-4,        5.13,        0.71       
+p-COCF3,                4-COCF3,             3.64E-4,        6.53,        0.81       
+p-N(CH3)2,              4-NMe2,              4.39E-4,        7.88,        0.90       
+p-CH=N-NMe2,            4-CH=N-NMe2,         4.60E-4,        8.27,        0.92       
+p-N=N(O)-tBu,           4-N=N(O)-Bu-t,       5.26E-4,        9.45,        0.98       
+p-N=N-C6H5,             4-N=N-Ph,            7.00E-4,       12.1,         1.08       
+p-CH=N(O)-tBu,          4-CH=N(O)-Bu-t,      7.53E-4,       13.5,         1.13       
+m-CN,                   3-CN,                4.16E-5,        0.75,       -0.13    
+m-PO(OEt)2,             3-PO(OEt)2,          4.24E-5,        0.78,       -0.11    
+m-NO2,                  3-NO2,               4.29E-5,        0.77,       -0.11    
+m-CF3,                  3-CF3,               4.65E-5,        0.84,       -0.08    
+m-SO2CH3,               3-SO2CH3,            4.79E-5,        0.86,       -0.07    
+m-OSO2CF3,              3-OTf,               4.92E-5,        0.88,       -0.05    
+m-PS(OEt)2,             3-PS(OEt)2,          4.93E-5,        0.89,       -0.05    
+m-Cl,                   3-Cl,                5.15E-5,        0.92,       -0.03    
+"m,m-di-Cl",            3,5-di-Cl,           5.24E-5,        0.94,       -0.03    
+m-F,                    3-F,                 5.30E-5,        0.95,       -0.02    
+m-OCH3,                 3-OCH3,              5.38E-5,        0.97,       -0.02    
+m-SCH3,                 3-SCH3,              5.50E-5,        0.99,       -0.01    
+m-SOCH3,                3-SOCH3,             5.55E-5,        1.00,        0.00     
+m-CH3,                  3-CH3,               6.03E-5,        1.08,        0.03     
+m-SiMe3,                3-SiMe3,             6.46E-5,        1.16,        0.06     
+"m,m-di-CH3",           3,5-di-CH3,          6.46E-5,        1.16,        0.06    

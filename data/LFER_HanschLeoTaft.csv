@@ -1,4 +1,4 @@
-﻿# Hammett Parameters Compiled by Hansch,         Leo and Taft
+# Hammett Parameters Compiled by Hansch, Leo and Taft
 # "A Survey of Hammett Substituent Constants and Resonance and Field Parameters"
 # Chem. Rev., 1991, 91, 165-195. 
 # https://doi.org/10.1021/cr00002a004
@@ -70,3 +70,5 @@ m-OH,        0.12,     ,         ,        ,        45
 p-OH,       -0.37,    -0.92,    -0.37,    25,      45
 m-SO2CH3,    0.6,      ,         ,        ,        148
 p-SO2CH3,    0.72,     ,         1.13,    69,      148
+m-N(CH3)2,  -0.15,     ,         ,        264 williams,264 williams
+p-N(CH3)2,  -0.83,    -1.70,    -0.12,    264 williams,264 williams
