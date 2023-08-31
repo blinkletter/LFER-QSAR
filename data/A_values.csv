@@ -1,0 +1,74 @@
+### List of steric A-values
+#
+### From "London Dispersion Helps Refine Steric A-Values: Dispersion Energy Donor Scales"
+### Ephrath Solel, Marcel Ruth, and Peter R. Schreiner
+### Journal of the American Chemical Society 2021 143 (49), 20837-20848
+### https://doi.org/10.1021/jacs.1c09222
+### data from Table 5 in the supplementary material was used
+#
+### See also "Stereochemistry of organic compounds" by Ernest L. Eliel, Samuel H. Wilen,
+### 1994,  Wiley & Sons, New York in UPEI Library QD481.E525 1994
+### https://eds-p-ebscohost-com.proxy.library.upei.ca/eds/detail/detail?vid=1&sid=ee72e4ae-19b0-47f2-8e52-c7792031aee6%40redis&bdata=JkF1dGhUeXBlPXNzbyZzaXRlPWVkcy1saXZlJnNjb3BlPXNpdGU%3d#AN=upei.216730&db=cat01065a
+#
+Group,    Avalue
+H,0
+F,0.335
+Cl,0.585
+Br, 0.575
+I, 0.54
+OH,0.82
+OMe, 0.628
+OtBu,0.75
+OPh,0.65
+OPhCl-p,0.65
+OPhOMe-p,0.7O
+OCHO,0.435
+OCOMe,0.763
+OCOCF3,0.62
+OCOPh,0.5
+OCONHPh,0.77
+OSiMe3,0.74
+SH,1.21
+SMe,1.04
+SPh,1.17
+SOMe,1.2
+SCN,1.23
+SePh,1.1
+NH2,1.35
+NHMe,1.29
+NMe2,1.53
+NHCOPh,1.6
+PMe2,1.55
+PCl2,1.95
+P(OMe)2,1.7
+CHO,0.697
+COMe,1.25
+CO2H,1.4
+CO2Me,1.25
+CO2Et,1.15
+COF,1.55
+COCl,1.3
+CN,0.2
+CCH,0.465
+CH=CH2,1.585
+CH=C=CH2,1.53
+Me,1.74
+Et,1.79
+iPr,2.21
+tBu,4.8
+CH2Br,1.79
+CH2OH,1.76
+CH2OCH,1.72
+CH2CN,1.77
+CH2SiMe3,1.65
+CH2SnMe3,1.79
+CF3,2.45
+Ph,2.8
+CH2Ph,1.68
+C6H11,2.2
+SiH3,1.485
+SiMe3,2.5
+SiCl3,0.61
+GeMe3,2.1
+SnMe3,1
+SnMe2Ph,1.08
