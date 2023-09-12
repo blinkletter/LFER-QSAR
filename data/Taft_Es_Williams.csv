@@ -1,0 +1,131 @@
+﻿### TAFT and CHARTON PARAMETERS
+###
+### from from "Free Energy Relationships in Organic and Bio-organic Chemistry" by Andrew Williams, The Royal Society of Chemistry, Cambridge, 2003, pg 272. https://doi.org/10.1039/9781847550927
+###
+### E's values from "Steric effects—I: A critical e amination of the taft steric parameter—Es. Definition of a revised, broader and homogeneous scale. E tension to highly congested alkyl groups." John Anthony MacPhee, Annick Panaye, Jacques-Emile Dubois, Tetrahedron, 1978, 34, 3553-3562. https://doi.org/10.1016/0040-4020(78)88431-2. macphee1978.pdf
+###
+### More vx values can be found at "The upsilon steric parameter — definition and determination." M. Charton, Topics Curr. Chem., 1983, 114, 57-91. https://doi.org/10.1007/BFb0111213
+### feel free to add them to this table as you need them.
+###
+Group,                 Formula,          Substituent,         E(s),   sigma*,        E'(s),         v(x)
+Me,                    CH3,                      CH3,            0,        0,            0,        0.52
+i-Bu,                  C4H9,             CH2CH(CH3)2,        -0.93,    -0.21,        -0.93,        0.98
+t-Bu,                  C4H9,                 C(CH3)3,        -1.54,     -0.3,        -1.43,        1.24
+CCl3,                  CCl3,                    CCl3,        -2.06,     2.43,        -1.75,        1.38
+CBr3,                  CBr3,                    CBr3,        -2.43,     2.65,        -2.14,        1.56
+CI3,                   CI3,                      CI3,         -2.9,         ,        -2.62,        1.79
+CF3,                   CF3,                      CF3,        -1.16,      2.61,       -0.78,        0.91
+Me3Si,                 C3H9Si,              Si(CH3)3,             ,     -0.81,       -1.79,        1.4
+F,                     F,                          F,             ,      3.21,       +0.57,        0.27
+Cl,                    Cl,                        Cl,             ,      2.96,       -0.02,        0.55
+Br,                    Br,                        Br,             ,      2.84,       -0.22,        0.65
+I,                     I,                          I,             ,      2.46,       -0.50,        0.78
+Ph,                    C6H5,                    C6H5,        -2.48,      0.60,       -2.31,        1.66
+Ph(CH2)3,              C9H11,               (CH2)3Ph,        -0.45,          ,            ,        0.7
+Et,                    C2H5,                    C2H5,        -0.07,     -0.10,       -0.06,        0.56
+Pr,                    C3H7,               CH2CH2CH3,        -0.36,    -0.115,       -0.31,        0.68
+n-Bu,                  C4H9,               (CH2)3CH3,        -0.39,     -0.13,       -0.31,        0.68
+BuCH2CH2,              C6H13,              (CH2)5CH3,         -0.3,     -0.25,            ,        0.73
+Bu(CH2)3,              C7H15,              (CH2)6CH3,             ,          ,            ,        0.73
+i-PrCH2,               C4H9,           CH2CH(CH3)CH3,        -0.93,     -0.21,            ,        0.98
+t-BuCH2,               C5H11,             CH2C(CH3)3,        -1.74,    -0.165,       -1.63,        1.34
+EtMeCHCH2,             C5H11,         CH2CH(CH3)C2H5,        -2.11,          ,       -2.03,        1
+i-PrCH2CH2,            C5H11,         (CH2)2CH(CH3)2,        -0.35,          ,       -0.32,        0.68
+t-BuCH2CH2,            C6H13,          CH2CH2C(CH3)3,        -0.34,          ,       -0.33,        0.7
+t-BuCHEtCH2CH2,        C9H19,  CH2CH2CH(C2H5)C(CH3)3,             ,          ,            ,        1.01
+cyclo-C6H11CH2,        C7H13,            CH2-c-C6H11,        -0.98,     -0.06,       -0.89,        0.97
+cyclo-C6H11CH2CH2,     C8H15,         CH2CH2-c-C6H11,             ,          ,       -0.34,        0.7
+cyclo-C6H11(CH2)3,     C9H17,         (CH2)3-c-C6H11,             ,          ,       -0.36,        0.71
+CH2SMe,                C2H5S,                CH2SCH3,        -0.34,          ,            ,          
+CH2OPh,                C7H7O,               CH2OC6H5,        -0.33,      0.85,       -0.32,          
+CH2CH2OMe,             C3H7O,             CH2CH2OCH3,        -0.77,          ,            ,          
+CH(CH2CHMe2)2,         C9H19,       CH(CH2CH(CH3)2)2,        -2.47,          ,       -2.38,        1.7
+CPh3,                  C19H15,              C(C6H5)3,        -4.68,      -0.4,       -4.91,          
+cyclo-C4H7,            C4H7,                cyc-C4H7,        -0.06,          ,       -0.03,          
+cyclo-C5H9,            C5H9,                cyc-C5H9,        -0.51,          ,       -0.41,          
+cyclo-C6H11,           C6H11,              cyc-C6H11,        -0.79,     -0.15,       -0.69,        0.87
+cyclo-C7H13,           C7H13,              cyc-C7H13,         -1.1,          ,       -0.92,         
+i-Pr,                  C3H7,                CH(CH3)2,        -0.47,     -0.19,       -0.48,        0.76
+Bu2CH,                 C9H19,              CH(C4H9)2,             ,          ,       -2.08,        1.56
+n-C5H11,               C5H11,              (CH2)4CH3,         -0.4,     -0.23,       -0.31,        0.68
+i-PrCHEt,              C6H13,       CH(C2H5)CH(CH3)2,             ,          ,       -3.23,        2.11
+t-BuCHMe,              C6H13,         CH(CH3)C(CH3)3,        -3.33,     -0.28,       -3.21,        2.11
+t-BuCH2CHMe,           C7H15,      CH(CH3)CH2C(CH3)3,        -1.85,          ,       -1.81,        1.41
+H,                     H,                          H,         1.24,      0.49,       +1.12,        0
+t-BuCMe2,              C7H15,         C(CH3)2C(CH3)3,         -3.9,          ,       -5.40,        2.43
+t-BuCH2CMe2,           C8H17,      C(CH3)2CH2C(CH3)3,        -2.57,          ,       -2.48,        1.74
+Et3C,                  C7H15,               C(C2H5)3,         -3.8,          ,       -5.29,        2.38
+PhCH2,                 C7H9,                 CH2C6H5,        -0.38,     0.215,       -0.39,        0.7
+PhCH2CH2,              C8H11,             CH2CH2C6H5,        -0.38,      0.08,       -0.35,        0.7
+Ph(CH2)3,              C9H13,             (CH2)3C6H5,        -0.45,          ,       -0.34,        0.7
+Ph(CH2)4,              C10H15,            (CH2)4C6H5,             ,          ,       -0.33,        0.7
+PhMeCH,                C8H9,             CH(CH3)C6H5,        -1.19,      0.11,       -0.90,        0.99
+PhEtCH,                C9H11,           CH(C2H5)C6H5,         -1.5,      0.04,       -1.32,        1.18
+Ph2CH,                 C15H11,             CH(C6H5)2,        -1.43,     0.405,       -1.50,        1.25
+ClCH2,                 CH2Cl,                  CH2Cl,        -0.24,      1.05,       -0.18,        0.6
+BrCH2,                 CH2Br,                  CH2Br,        -0.27,      1.00,       -0.24,        0.64
+Cl2CH,                 CHCl2,                  CHCl2,        -1.54,      1.94,       -0.58,        0.81
+CH2CH2Cl,              C2H4Cl,              CH2CH2Cl,         -0.9,     0.385,            ,       
+Br2CH,                 CHBr2,                  CHBr2,        -1.86,      1.96,       -0.76,        0.89
+Br2CMe,                C2H3Br2,            C(CH3)Br2,             ,          ,       -1.92,        1.46
+BrMe2C,                C3H6Br,             C(CH3)2Br,             ,          ,       -1.77,        1.39
+FCH2,                  CH2F,                    CH2F,        -0.24,      1.10,       -0.20,        0.62
+ICH2,                  CH2I,                    CH2I,        -0.37,      0.85,       -0.30,        0.67
+CNCH2,                 C2H2N,                  CH2CN,        -0.94,       1.3,       -0.89,        0.89
+I2CH,                  CHI1,                    CHI2,             ,      1.62,       -0.93,        0.97
+CMe2Et,                C5H11,            C(CH3)2C2H5,         -1.8,          ,       -2.28,       
+n-C8H17,               C8H17,              (CH2)7CH3,        -0.33,          ,            ,        0.68
+CHMeEt,                C4H9,             CH(CH3)C2H5,        -1.13,    -0.125,       -1.00,        1.02
+CH(CH2t-Bu)2,          C11H23,       CH(CH2C(CH3)3)2,        -3.18,          ,       -3.06,        2.03
+NO2,                   NO2,                      NO2,             ,      4.25,            ,       
+CH2OCH3,               C2H5O,                CH2OCH3,             ,      0.52,            ,    
+C2F5,                  C2F5,                    C2F5,             ,      2.56,            ,           
+Et2CH,                 C5H11,              CH(C2H5)2,        -1.98,          ,       -2.00, 
+sBuCH2,                C5H11,       CH2CH(CH3)(C2H5),             ,          ,       -0.97,      
+nPr2CH,                C7H15,              CH(C3H7)2,        -2.11,          ,       -2.03,       1.54
+iBuCH2CH2,             C6H13,         (CH2)3CH(CH3)2,             ,          ,       -0.31,
+nPrMeCH,               C5H11,          CH(CH3)(C3H7),             ,          ,       -1.02,
+nBuMeCH,               C6H13,          CH(CH3)(C4H9),             ,          ,       -1.06,
+PrEtCH,                C5H11,         CH(C2H5)(C3H7),             ,          ,       -2.00,
+nBuEtCH,               C7H15,         CH(C2H7)(C4H9),             ,          ,       -2.03,
+cyclo-C3H5,            C3H5,                cyc-C3H5,             ,          ,       -1.09,          
+Ph2MeC,                C12H13,            C(CH3)C5H6,             ,          ,       -3.73,           
+Ph2EtC,                C13H15,           C(C2H5)C5H6,             ,          ,       -4.55,          
+2-furyl,               C4H3O,                2-C4H3O,             ,          ,       -2.63,
+3-furyl,               C4H3O,                3-C4H3O,             ,          ,       -2.33,
+2-furyl-CH2,           C5H5O,            CH2-2-C4H3O,             ,          ,       -0.34,
+3-furyl-CH2,           C5H5O,            CH2-3-C4H3O,             ,          ,       -0.74,
+o-Me-Ph,               C7H7,              C6H4-2-CH3,             ,          ,       -2.82,      
+o-Et-Ph,               C8H9,             C6H4-2-C2H5,             ,          ,       -2.97,      
+o-Pr-Ph,               C9H11,            C6H4-2-C3H7,             ,          ,       -3.04,      
+o-Ph-Ph,               C10H9,            C6H4-2-C6H5,             ,          ,       -3.01,      
+PhCH2MeCH,             C9H11,         CH(CH3)CH2C6H5,             ,          ,       -0.44,      
+FluorenylCH,           C13H9,            [CH(C6H4)2],             ,          ,       -1.15,      
+FluorenylCMe,          C14H11,       [C(CH3)(C6H4)2],             ,          ,       -1.81,      
+FluorenylCEt,          C15H13,      [C(C2H5)(C6H4)2],             ,          ,       -2.07,      
+FluorenylCPr,          C16H15,      [C(C3H7)(C6H4)2],             ,          ,       -3.46,      
+FluorenylCBu,          C17H17,      [C(C4H9)(C6H4)2],             ,          ,       -4.32,      
+FluorenylCPh,          C19H13,      [C(C6H5)(C6H4)2],             ,          ,       -3.23,      
+AnthracenylCH,         C14H10,                C14H10,             ,          ,       -1.35,      
+F2CH,                  CHF2,                    CHF2,        -0.67,          ,       -0.32,      
+CH2OH,                 CH2OH,                  CH2OH,             ,          ,       -0.03,      
+C(OH)R,                ,                     CH(OH)R,             ,          ,       -0.35,      
+C(O)R,                 ,                      (C=O)R,             ,          ,       -0.52,      
+CH(OMe)R,              ,                   CH(OCH3)R,             ,          ,       -1.39,      
+vinyl,                 C2H3,                   CH2CH,             ,          ,       -2.07,      
+allyl,                 C3H5,                CH2CHCH2,             ,          ,       -0.31,      
+CH2CH(CH2)n,           ,                 CH2CH(CH2)n,             ,          ,       -0.43,      
+RCC,                   ,                         CCR,             ,          ,       -1.97,      
+CHOHMe,                C2H5O,              CH(OH)CH3,             ,          ,       -0.08,      
+iPrMe2C,               C6H13,        C(CH3)2CH(CH3)2,             ,          ,       -3.54,
+iPr2CH,                C7H15,          CH(CH(CH3)2)2,             ,          ,       -5.01,       1.70
+iPrEt2C,               C6H13,       C(C2H5)2CH(CH3)2,             ,          ,       -6.20,
+iPr2MeC,               C8H17,      C(CH3)(CH(CH3)2)2,             ,          ,       -7.38,
+iPr2EtC,               C9H19,     C(C2H5)(CH(CH3)2)2,             ,          ,       -7.38,
+iPr3C,                 C10H21,          C(CH(CH3)2)3,             ,          ,       -6.73,
+tBuiPrCH,              C8H17,    CH(CH(CH3)2)C(CH3)3,             ,          ,       -6.53,
+tBu2CH,                C9H19,           CH(C(CH3)3)2,             ,          ,       -6.97,
+tBuiPrMeC,             C9H19,C(CH3)(CH(CH3)2)C(CH3)3,             ,          ,       -7.56,
+tBuEt2C,               C9H19,        C(C2H5)2C(CH3)3,             ,          ,       -7.21,
+tBuiPrEtC,             C10H21,C(C2H5)(CH(CH3)2)(C(CH3)3),         ,          ,       -6.62,
+1-Adamantyl,           C10H15,           1-Adamantyl,             ,           ,           ,     1.33
