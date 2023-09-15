@@ -1,14 +1,14 @@
-# Group Ients in kcal/mile
+# Group Increments in kcal/mole
 #
-# from ta2.4 of "Modern Physical Organic Chemistry"
+# from table 2.4 of "Modern Physical Organic Chemistry"
 #
-# note: Couble bonded C, Cb = benzene C, Ni = imine NH2
+# note: Cd = double bonded C, Cb = benzene C, Ni = imine NH2
 #
-# The firtter is the atom followed by the groups to which 
-# it is aed. e.g. C-H3C is a carbon attached to three hydrogen atons 
-# and anocarbon atom. This would be a methyl group.
+# The first letter is the atom followed by the groups to which 
+# it is attached. e.g. C-H3C is a carbon attached to three hydrogen atoms 
+# and another carbon atom. This would be a methyl group.
 #
-group,    dHf
+group,         dHf
 C-H3C,         -10.2
 C-H2C2,         -4.93
 C-HC3,          -1.90
