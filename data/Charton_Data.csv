@@ -1,0 +1,43 @@
+# pKa Values and rate constants Compiled by Charton
+# From Charton, M. (2007). Electrical Effect Substituent Constants for Correlation Analysis. Progress in Physical Organic Chemistry, 119–251. doi:10.1002/9780470171929.ch3 
+#
+# "Substituent" is the position and structure of the substituent
+#
+# Errors are possible. Refer to original document for confirmation
+#
+# NOTE: csv files are not compatible with comments or spaces.
+# Use pandas.read_csv("file.csv", comment = "#", skipinitialspace=True) 
+# to import file
+#
+# A: pKa, substituted acetic acids in H2O at 5 deg C    Page 153
+# B: pKa, substituted acetic acids in H2O at 20 deg C
+# C: pKa, substituted methylamines, in H2O at 25 deg C
+Substituent,      A,          B,         C,                              
+H,             4.7696,    4.7562,      10.657                               
+CH3,           4.8844,    4.8735,      10.70                               
+C2H5,          4.8030,    4.7981,      10.69                     
+F,                   ,    2.5712,                                                     
+Cl,                  ,    2.8557,                                   
+Br,                  ,    2.88729,                                                     
+I,                   ,    3.1583,             
+CH3CONH,       3.6815,    3.6572,                             
+EtCONH,        3.7284,    3.7165,                                         
+H2NCONH,       3.9108,    3.8788,                                                
+CN,            2.44466,   2.45975,      5.34                                            
+MeO,           3.5381,    3.5591,                                                 
+CONH2,               ,          ,       7.95 
+CH2OH,               ,          ,       9.4980            
+CH2CH,               ,          ,       9.49             
+Pr,                  ,          ,      10.66           
+iBu,                 ,          ,      10.60           
+Bu,                  ,          ,      10.64           
+Ph                   ,          ,       9.35       
+PhCH2,               ,          ,       9.84                   
+CO2Me,               ,          ,       7.59                   
+CO2Et,               ,          ,       7.64                   
+CH2NHAc,             ,          ,       9.25                    
+                                                    
+                                                    
+                                                     
+                                                     
+                                                     
