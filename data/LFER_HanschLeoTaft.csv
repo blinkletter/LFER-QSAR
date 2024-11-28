@@ -14,7 +14,7 @@
 # Use pandas.read_csv("file.csv", comment = "#", skipinitialspace=True) 
 # to import file
 #
-Substituent,  sigma, s_plus, s_minus, sigma_I, sigma_n  ,       F,      R,    R+,    R-,   TABLE V, TABLE I
+Substituent,  sigma, s_plus, s_minus, sigma_I, sigma_n,       F,      R,    R+,    R-,   TABLE V, TABLE I
 m-Br,         0.39,  ,       ,              ,           ,       ,      0,      0,       0,   ,        2
 p-Br,         0.23,  0.15,   0.25,      0.47,  0.265    ,   0.45,  -0.22,  -0.30,   -0.20,   2,       2
 m-C6H5,       0.06,  ,       ,              ,           ,       ,      0,      0,       0,   ,        417
