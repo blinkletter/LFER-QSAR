@@ -1,0 +1,16 @@
+﻿### TAFT and CHARTON PARAMETERS
+###
+### from "Free Energy Relationships in Organic and Bio-organic Chemistry" by Andrew Williams, The Royal Society of Chemistry, Cambridge, 2003, pg 272. https://doi.org/10.1039/9781847550927
+### 
+### 
+###
+Name,          Substituent,        "E(s)",   "sigma*"
+Methoxy,       o-OCH3,        0.99,    -0.22    
+Ethoxy,        o-OEt,        0.90,      
+Fluoro,        o-F,          0.49,    0.41   
+Chloro,        o-Cl,         0.18,    0.37   
+Bromo,         o-Br,         0.00,    0.38 
+Methyl,        o-CH3,        0,       0 
+Iodo,          o-I,         -0.2,     0.38 
+Nitro,         o-NO2,       -0.75,    0.97
+Phenyl,        o-C6H5,      -0.90,       
