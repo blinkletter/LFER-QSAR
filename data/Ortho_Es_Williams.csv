@@ -1,16 +1,22 @@
 ﻿### TAFT and CHARTON PARAMETERS
 ###
 ### from "Free Energy Relationships in Organic and Bio-organic Chemistry" by Andrew Williams, The Royal Society of Chemistry, Cambridge, 2003, pg 272. https://doi.org/10.1039/9781847550927
-### 
-### 
+### data from page 46 of williams and are from the first column of Table II (based on pKa of Benzoic acids) of
+### Charton, M. (1971). The Quantitative Treatment of the Ortho Effect. In Progress in Physical Organic Chemistry (eds A. Streitwieser and R.W. Taft). https://doi.org/10.1002/9780470171875.ch3
+### and also Table III in appendix 3 of Williams, page 273
+### sigma* is scaled by 2.43 to be on same scale as sigma: sigma = sigma* X 2.43
 ###
-Name,          Substituent,        "E(s)",   "sigma*"
-Methoxy,       o-OCH3,        0.99,    -0.22    
-Ethoxy,        o-OEt,        0.90,      
-Fluoro,        o-F,          0.49,    0.41   
-Chloro,        o-Cl,         0.18,    0.37   
-Bromo,         o-Br,         0.00,    0.38 
-Methyl,        o-CH3,        0,       0 
-Iodo,          o-I,         -0.2,     0.38 
-Nitro,         o-NO2,       -0.75,    0.97
-Phenyl,        o-C6H5,      -0.90,       
+Substituent,        "E(s)",   "sigma*",   "sigma",    "u (Charton)"                     
+o-OCH3,              0.99,    -0.22,            ,        
+o-OEt,               0.90,         ,            ,        
+o-CH3,               0,        0,          -0.29,	 0.52
+o-F,                 0.49,     0.41,        0.93,	 0.27
+o-Cl,                0.18,     0.37,        1.26,	 0.55
+o-Br,                0.00,     0.38,        1.35,	 0.65
+o-I,                -0.2,      0.38,        1.34,	 0.78
+o-NO2,              -0.75,     0.97,        2.03,	 0.35    # Charton u value is 0.35 to 1.39                                      
+o-C6H5,             -0.90,         ,            ,         
+# H,                   1.24,     0.49,        0.00,	 0.00
+### Charton u values are from Williams and from The upsilon steric parameter -- definition and determination. M. Charton, Topics Curr. Chem., 1983, 114, 57-91. https://doi.org/10.1007/BFb0111213
+ 
+
