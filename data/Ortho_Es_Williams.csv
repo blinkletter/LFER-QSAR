@@ -6,7 +6,7 @@
 ### and also Table III in appendix 3 of Williams, page 273
 ### sigma* is scaled by 2.43 to be on same scale as sigma: sigma = sigma* X 2.43
 ###
-Substituent,        "E(s)",   "sigma*",   "sigma",    "u (Charton)"                     
+Substituent,        "E(s)",   "sigma*",   "sigma",    "u"
 o-OCH3,              0.99,    -0.22,            ,        
 o-OEt,               0.90,         ,            ,        
 o-CH3,               0,        0,          -0.29,	 0.52
